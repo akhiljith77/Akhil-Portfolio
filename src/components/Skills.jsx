@@ -7,11 +7,11 @@ export default function Skills() {
     },
     {
       category: 'Backend',
-      skills: ['Node.js', 'Express', 'MongoDB', 'REST APIs', 'Authentication']
+      skills: ['Node.js', 'Express', 'MongoDB', 'REST APIs', 'NestJs','postgresql']
     },
     {
       category: 'Tools & Others',
-      skills: ['Git', 'GitHub', 'VS Code', 'Postman', 'Linux', 'Docker']
+      skills: ['Git', 'GitHub', 'VS Code', 'Postman',  'Docker']
     }
   ]
 

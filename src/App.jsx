@@ -6,6 +6,7 @@ import Contact from './components/Contact'
 import Skills from './components/Skills'
 import Footer from './components/Footer'
 import React from 'react'
+import Education from './components/Education'
 
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <About />
+      <Education/>
       <Skills />
       <Projects />
       <Contact />

@@ -28,7 +28,7 @@ export default function Contact() {
             <Mail className="text-red-500 mb-4" size={32} />
             <h3 className="text-xl font-bold mb-2">Email</h3>
             <a href="mailto:your@email.com" className="text-gray-400 hover:text-red-500 transition">
-              your@email.com
+              jithakhil811@email.com
             </a>
           </div>
 

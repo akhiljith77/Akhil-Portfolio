@@ -4,26 +4,26 @@ import { Github, ExternalLink } from 'lucide-react'
 export default function Projects() {
   const projects = [
     {
-      title: 'E-Commerce Platform',
+      title: 'Stinger - An Ecommerce Platform ',
       description: 'Full-stack e-commerce application with React frontend and Node.js backend',
-      tags: ['React', 'Node.js', 'MongoDB', 'Tailwind'],
-      github: '#',
-      live: '#'
+      tags: ['React', 'Node.js', 'PostgreSQL', 'Tailwind'],
+      github: 'https://github.com/akhiljith77/Stinger-service',
+      // live: '#'
     },
-    {
-      title: 'Task Management App',
-      description: 'Real-time task management system with user authentication and notifications',
-      tags: ['React', 'Firebase', 'Tailwind', 'Redux'],
-      github: '#',
-      live: '#'
-    },
-    {
-      title: 'Weather Dashboard',
-      description: 'Interactive weather application with real-time data and forecasts',
-      tags: ['React', 'API Integration', 'Chart.js', 'Tailwind'],
-      github: '#',
-      live: '#'
-    }
+    // {
+    //   title: 'E-Organ',
+    //   description: 'Organ Donation Platform',
+    //   tags: ['React', 'Firebase', 'Tailwind', 'Redux'],
+    //   github: '#',
+    //   live: '#'
+    // },
+    // {
+    //   title: 'Weather Dashboard',
+    //   description: 'Interactive weather application with real-time data and forecasts',
+    //   tags: ['React', 'API Integration', 'Chart.js', 'Tailwind'],
+    //   github: '#',
+    //   live: '#'
+    // }
   ]
 
   return (
@@ -33,7 +33,13 @@ export default function Projects() {
           My <span className="bg-gradient-to-r from-red-500 to-red-700 text-transparent bg-clip-text">Projects</span>
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-8">
+      <div
+  className={`grid gap-8 ${
+    projects.length === 1 ? "place-items-center" : "md:grid-cols-2"
+  }`}
+>
+
+
           {projects.map((project, idx) => (
             <div
               key={idx}
@@ -59,9 +65,9 @@ export default function Projects() {
                   <a href={project.github} className="flex items-center gap-2 text-red-500 hover:text-red-400 transition">
                     <Github size={20} /> Code
                   </a>
-                  <a href={project.live} className="flex items-center gap-2 text-red-500 hover:text-red-400 transition">
+                  {/* <a href={project.live} className="flex items-center gap-2 text-red-500 hover:text-red-400 transition">
                     <ExternalLink size={20} /> Live
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

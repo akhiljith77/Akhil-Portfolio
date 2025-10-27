@@ -24,9 +24,9 @@ export default function About() {
             <h3 className="text-2xl font-bold mb-6 text-red-500">Quick Info</h3>
             <ul className="space-y-4 text-gray-400">
               <li><span className="text-red-500 font-semibold">Education:</span> MCA (Pursuing)</li>
-              <li><span className="text-red-500 font-semibold">Location:</span> India</li>
-              <li><span className="text-red-500 font-semibold">Focus:</span> Full Stack Development</li>
-              <li><span className="text-red-500 font-semibold">Interests:</span> Web Dev, AI/ML, Cloud</li>
+              <li><span className="text-red-500 font-semibold">Location:</span> Kerala,India</li>
+              <li><span className="text-red-500 font-semibold">Focus:</span> Software Development</li>
+              <li><span className="text-red-500 font-semibold">Interests:</span> FullStack Dev, AI/ML, Cloud</li>
             </ul>
           </div>
         </div>

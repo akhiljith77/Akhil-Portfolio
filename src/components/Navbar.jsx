@@ -10,9 +10,9 @@ export default function Navbar() {
   return (
     <nav className="fixed w-full bg-black/90 backdrop-blur-md z-50 border-b border-red-900/50">
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold bg-gradient-to-r from-red-500 to-black text-transparent bg-clip-text">
-          Portfolio
-        </div>
+        <div className="text-2xl font-bold bg-gradient-to-r from-red-500 to-red-700 bg-clip-text text-transparent">
+            Portfolio
+          </div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-8">
